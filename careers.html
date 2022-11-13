@@ -1,0 +1,94 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="mystyle.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+    input{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    padding: 13px 14px;
+    width: 620px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+}
+textarea{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+}
+}
+</style>
+</head>
+<body>
+<div id="header-wrapper">
+    <div class="banner">
+    <img src='product-images/Logo1.png' class='writer-img'>
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Welcome to Luca’s Loaves</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li ><a href="index.html" accesskey="1" title="">Home</a></li>
+				<li><a href="aboutus.html" accesskey="2" title="">About US</a></li>
+                <li><a href="upload.php" accesskey="3" title="">Register ＆ Login</a></li>
+				<li><a href="orderonline.php" accesskey="4" title="">Order online </a></li>
+				<li><a href="contactus.html" accesskey="5" title="">Contact Us</a></li>
+                <li class="active"><a href="upload.html" accesskey="6" title="">Careers </a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<div class="wrapper">
+	<div id="welcome" class="container">
+		<div class="title">
+            <h1>Join our team</h1>
+            <p> We are expanding our branches and need experienced baker regularly.</n>
+                Send us your detail with the form below</br>
+            and we will be in contact shortly</p>
+
+            <div id="three-column" class="container">
+           
+                <div class="title">
+                    <h2>Fill out the form below and upload your cover letter and resume</h2>
+                    <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br/>
+                        <label for="lname">Email Address:</label><br>
+                        <input type="text" id="email" name="email"><br/><br>
+                        <p>Write about yourself:</p>
+                        <textarea id="w3review" name="w3review" rows="4" cols="85"></textarea><br/><br>
+                        <label for="file">Cover Letter</label>
+                        <input type="file" name="myfile[]" ><br/><br>
+                        <label for="file">Resume</label>
+                        <input type="file" name="myfile[]" ><br/><br>
+                        <input type="submit" name="submit" value="Submit"><br/>
+                </form> 
+                
+                </div>
+            
+				
+				
+            </div>
+            </div>
+            </div>
+            <div class="footer">
+                <p4>Luca’s Loaves &nbsp;&nbsp;11-2022</p4><br>
+                <p4>IT20_2_218 IKUN: Milk, Zain, Gethin, November</p4>
+            </div>
+
+</body>
+</html>
+
+           
+  
